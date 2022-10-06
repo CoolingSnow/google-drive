@@ -9,6 +9,8 @@ import FileManager from "./components/listers/FileCards"
 import FileDetail from "./components/listers/FileDetail"
 
 
+import DashboardView from "./components/DashboardView"
+import DashboardViewDetail from "./components/DashboardViewDetail"
 import IndexManager from "./components/listers/IndexCards"
 import IndexDetail from "./components/listers/IndexDetail"
 
@@ -33,6 +35,16 @@ export default new Router({
             },
 
 
+            {
+                path: '/dashboards',
+                name: 'DashboardView',
+                component: DashboardView
+            },
+            {
+                path: '/dashboards/:id',
+                name: 'DashboardViewDetail',
+                component: DashboardViewDetail
+            },
             {
                 path: '/indices',
                 name: 'IndexManager',

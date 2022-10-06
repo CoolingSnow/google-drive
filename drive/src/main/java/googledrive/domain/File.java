@@ -40,6 +40,18 @@ public class File  {
     
     
     private String type;
+    
+    
+    
+    
+    
+    private Date createdTime;
+    
+    
+    
+    
+    
+    private String userId;
 
     @PostPersist
     public void onPostPersist(){
