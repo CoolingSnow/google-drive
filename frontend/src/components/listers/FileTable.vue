@@ -67,6 +67,9 @@
             headers: 
                 [
                     { text: "id", value: "id" },
+                    { text: "name", value: "name" },
+                    { text: "size", value: "size" },
+                    { text: "type", value: "type" },
                 ],
             file : [],
             newValue: {},
@@ -84,6 +87,9 @@
             this.values = temp.data._embedded.files;
 
             this.newValue = {
+                'name': '',
+                'size': 0,
+                'type': '',
             }
         },
         methods: {

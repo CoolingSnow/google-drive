@@ -11,6 +11,9 @@ public class FileIndexed extends AbstractEvent {
 
     private Long id;
 
+    public FileIndexed(Index aggregate){
+        super(aggregate);
+    }
     public FileIndexed(){
         super();
     }
