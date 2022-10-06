@@ -11,6 +11,9 @@ public class FileUploaded extends AbstractEvent {
 
     private Long id;
 
+    public FileUploaded(File aggregate){
+        super(aggregate);
+    }
     public FileUploaded(){
         super();
     }

@@ -33,10 +33,13 @@ public class PolicyHandler{
         
 
         // Sample Logic //
+        Video.processVideo(event);
+        
 
         
 
     }
+
 
 }
 
