@@ -71,6 +71,8 @@
                 'name': '',
                 'size': 0,
                 'type': '',
+                'createdTime': '2022-10-06',
+                'userId': '',
             }
         },
         methods:{

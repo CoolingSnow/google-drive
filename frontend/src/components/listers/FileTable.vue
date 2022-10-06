@@ -70,6 +70,8 @@
                     { text: "name", value: "name" },
                     { text: "size", value: "size" },
                     { text: "type", value: "type" },
+                    { text: "createdTime", value: "createdTime" },
+                    { text: "userId", value: "userId" },
                 ],
             file : [],
             newValue: {},
@@ -90,6 +92,8 @@
                 'name': '',
                 'size': 0,
                 'type': '',
+                'createdTime': '2022-10-06',
+                'userId': '',
             }
         },
         methods: {
