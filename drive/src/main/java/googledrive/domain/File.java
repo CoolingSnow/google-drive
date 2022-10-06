@@ -21,6 +21,36 @@ public class File  {
     
     
     private Long id;
+    
+    
+    
+    
+    
+    private String name;
+    
+    
+    
+    
+    
+    private Long size;
+    
+    
+    
+    
+    
+    private Date createdTime;
+    
+    
+    
+    
+    
+    private String type;
+    
+    
+    
+    
+    
+    private String userId;
 
 
     public static FileRepository repository(){

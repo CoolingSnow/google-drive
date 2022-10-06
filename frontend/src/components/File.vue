@@ -17,6 +17,11 @@
         </v-card-title >
 
         <v-card-text>
+            <String label="Name" v-model="value.name" :editMode="editMode"/>
+            <Number label="Size" v-model="value.size" :editMode="editMode"/>
+            <Date label="CreatedTime" v-model="value.createdTime" :editMode="editMode"/>
+            <String label="Type" v-model="value.type" :editMode="editMode"/>
+            <String label="UserId" v-model="value.userId" :editMode="editMode"/>
         </v-card-text>
 
         <v-card-actions>

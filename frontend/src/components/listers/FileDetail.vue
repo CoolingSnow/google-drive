@@ -5,6 +5,21 @@
         </v-card-title>
 
         <v-card-text>
+            <div>
+                <String label="Name" v-model="item.name" :editMode="editMode" @change="change" />
+            </div>
+            <div>
+                <Number label="Size" v-model="item.size" :editMode="editMode" @change="change" />
+            </div>
+            <div>
+                <Date label="CreatedTime" v-model="item.createdTime" :editMode="editMode" @change="change" />
+            </div>
+            <div>
+                <String label="Type" v-model="item.type" :editMode="editMode" @change="change" />
+            </div>
+            <div>
+                <String label="UserId" v-model="item.userId" :editMode="editMode" @change="change" />
+            </div>
         </v-card-text>
 
         <v-card-actions>
