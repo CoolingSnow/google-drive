@@ -69,9 +69,7 @@
                     { text: "id", value: "id" },
                     { text: "name", value: "name" },
                     { text: "size", value: "size" },
-                    { text: "createdTime", value: "createdTime" },
                     { text: "type", value: "type" },
-                    { text: "userId", value: "userId" },
                 ],
             file : [],
             newValue: {},
@@ -91,9 +89,7 @@
             this.newValue = {
                 'name': '',
                 'size': 0,
-                'createdTime': '2022-10-06',
                 'type': '',
-                'userId': '',
             }
         },
         methods: {

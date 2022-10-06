@@ -38,19 +38,7 @@ public class File  {
     
     
     
-    private Date createdTime;
-    
-    
-    
-    
-    
     private String type;
-    
-    
-    
-    
-    
-    private String userId;
 
 
     public static FileRepository repository(){

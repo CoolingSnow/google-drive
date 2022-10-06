@@ -70,9 +70,7 @@
             me.newValue = {
                 'name': '',
                 'size': 0,
-                'createdTime': '2022-10-06',
                 'type': '',
-                'userId': '',
             }
         },
         methods:{
